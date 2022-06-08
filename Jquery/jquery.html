@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> <!--link to jquery-->
+</head>    
+
+<script>
+    $(document).ready(function() {  
+        $("html").append ( //targeting the dom element html
+            "<body>\
+                <div id='container'>\
+                    <div id='inner'>\
+                        <h1>Basic jquery</h1>\
+                        <p id='1'>Paragraph 1</p>\
+                        <p id='2'>paragraph 2</p>\
+                        <p id='3'>Paragraph 3</p>\
+                </div>\
+            </body>"         
+                
+
+
+        );
+        $("#2").css({"color":"red"}); //jquery append to target id/paragraph # 2 and change color to red
+        $("#3").click(function() {  //jquery so when you click on the 3rd paragraph it hides H1 basic jquery
+            $('h1').hide();
+
+        });
+        
+    }) ;
+</script>
+</html>
