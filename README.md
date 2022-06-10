@@ -14,4 +14,4 @@ The classic game of tic tact toe. it randomly rolls dice to select which of the 
 Users can decide which token each player wants to use and the winner is celebrated with music and flashing lights.
 
 Calculator:
-A basic $ function calculator.  Users can add, subtract, multiply and divide on a sleek web version of a calculator.
+A basic function calculator.  Users can add, subtract, multiply and divide on a sleek web version of a calculator.
